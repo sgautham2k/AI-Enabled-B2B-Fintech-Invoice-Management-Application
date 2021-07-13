@@ -1,0 +1,184 @@
+.index {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 930px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.index .lefthead .heading {
+    top: 91px;
+    left: 175px;
+    width: 204px;
+    height: 31px;
+    text-align: left;
+    display: inline;
+    font: normal normal bold 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #14AFF1;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+
+.index .lefthead .subheading {
+    width: 484px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 24px/28px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.52;
+    top: 137px;
+    left: 175px;
+    position: absolute; 
+}
+
+.index .righthead .sideheading {
+    width: 118px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0px;
+    color: #97A1A9;
+    opacity: 1;
+    top: 91px;
+    left: 1663px;
+    position: absolute;
+}
+
+.index .righthead .chkbox {
+    top: 135px;
+    width: 24px;
+    height: 24px;
+    background: transparent url(img/check_box-black-18dp.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    left: 1663px;
+    position: absolute;
+}
+
+.index .righthead .chkboxblank {
+    top: 135px;
+    width: 24px;
+    height: 24px;
+    background: transparent url(img/check_box_outline_blank-black-18dp.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    left: 1706px;
+    position: absolute;
+}
+
+.index .righthead .calendartdy {
+    top: 135px;
+    width: 24px;
+    height: 24px;
+    background: transparent url(img/calendar_today-24px.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    left: 1748px;
+    position: absolute;
+}
+
+.index .leftlinks .landing {
+    top: 307px;
+    width: 170px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 175px;
+    position: absolute;
+}
+
+.index .leftlinks .rows {
+    top: 392px;
+    width: 292px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 175px;
+    position: absolute;
+}
+
+.index .leftlinks .invedit {
+    position: absolute;
+    top: 478px;
+    width: 146px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 175px;
+}
+
+.index .leftlinks .invadd {
+    top: 564px;
+    width: 355px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 175px;
+    position: absolute;
+}
+
+.index .leftlinks .invdel {
+    top: 646px;
+    width: 355px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 175px;
+    position: absolute;
+}
+
+.index .rightlinks .invsearch {
+    width: 393px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    top: 306px;
+    left: 919px;
+    right: 608px;
+    position: absolute;
+}
+
+.index .rightlinks .invempty {
+    width: 405px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    top: 393px;
+    left: 919px;
+    position: absolute;
+}
+
+.index .rightlinks .invbtndisabled {
+    width: 663px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    top: 478px;
+    left: 919px;
+    position: absolute;
+}

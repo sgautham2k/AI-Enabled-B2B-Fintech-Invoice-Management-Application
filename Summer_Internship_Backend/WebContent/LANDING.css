@@ -1,0 +1,627 @@
+.header {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 930px;
+	background: #58687E;
+	opacity: 1;
+}
+
+.abc {
+	top: 16px;
+	margin-left: 30px;
+	width: 233px;
+	height: 52px;
+	text-align: left;
+	font-family: Futura PT;
+	font-weight: 800;
+	font-size: 50px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.logo {
+	top: 22px;
+	margin-left: 520px;
+	width: 235px;
+	height: 50px;
+	font: 39px;
+	background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.pp {
+	top: 100px;
+	margin-left: 30px;
+	width: 141px;
+	height: 31px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-weight: Regular;
+	font-size: 28px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.rectangle {
+	top: 161px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 1860px;
+	height: 739px;
+	background: #273D49CC 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	opacity: 1;
+}
+
+.add {
+	top: 0px;
+ 	width: 99px;
+  	height: 45px;
+	margin-left: 1106px;
+	display: inline;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	border-radius: 10px;
+	color: #ffffff;
+  	opacity: 1;
+	font-size: 20px;
+	font-family: Ubuntu;
+  	background: transparent;
+  	border: 1px solid #14aff1;
+  	border-radius: 10px;
+}
+
+.edit{
+	margin-top: 1.3rem;
+	margin: 12px;
+	display: inline;
+	width: 102px;
+	height: 45px;
+	border: 1px solid #97A1A9;
+	border-radius: 10px;
+	opacity: 1;
+	background: transparent;
+	font-size: 20px;
+	font-family: Ubuntu;
+	font-weight: Regular;
+	text-align: center;
+	color: #97A1A9;
+
+}
+
+.delete {
+	margin-top: 1.3rem;
+	margin: 0px;
+	display: inline;
+	width: 123px;
+	height: 45px;
+	border: 1px solid #97A1A9;
+	border-radius: 10px;
+	opacity: 1;
+	background: transparent;
+	font-weight: Regular;
+	color: #97A1A9;
+	text-align: center;
+	font-size: 20px;
+	font-family: Ubuntu;
+	letter-spacing: 0px;
+}
+
+.search {
+	margin: 12px;
+	display: inline;
+}
+
+.searchbox {
+	top: 191px;
+	left: 1520px;
+	width: 340px;	
+	height: 45px;
+	background: #283A46 0% 0% no-repeat padding-box;
+	border: 1px solid #14AFF1;
+	border-radius: 10px;
+	color: #97A1A9;
+	text-align: left;
+	font-size: 18px;
+	font-family: Ubuntu;
+	font-weight: Regular;
+	opacity: 1;
+}
+
+.searchlogo {
+    top: 178px;
+    left: 1831px;
+    width: 32px;
+    height: 23px;
+    opacity: 1;
+    position: absolute;
+}
+
+th {
+	width: 131px;
+	height: 20px;
+	text-align: left;
+	font: normal normal normal 18px/21px Ubuntu;
+	letter-spacing: 0px;
+	color: #97A1A9;
+	opacity: 1;
+}
+
+td {
+	width: 1800px;
+	height: 50px;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: Ubuntu;
+	opacity: 1;	
+}
+
+tr:nth-child(odd) {
+	background: #283a46 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+th {
+	background: #2f4957cc;
+}
+
+.impdate {
+	color: #FF5B5B;
+}
+
+.checkbox {
+	padding-left: 60px;
+	padding-right: 25px;
+	width: 16px;
+	height: 16px;
+}
+
+.addmdl {
+	top: 226px;
+	left: 407px;
+	width: 1106px;
+	height: 509px;
+    display: none;
+	background: #2A3E4C 0% 0% no-repeat padding-box;
+	box-shadow: 0px 8px 24px #00000029;
+	border-radius: 6px;
+	opacity: 1;
+	position: absolute;
+}
+
+.modalhead {
+	top: 5px;
+    left: 30px;
+    width: 147px;
+    height: 31px;
+    font-size: 28px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    position: absolute;
+}
+
+#clsbtn {
+	top: 33px;
+    right: 30.22px;
+    width: 24px;
+    height: 24px;
+    background: transparent url(img/baseline-close-24px.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.cname {
+	top: 131px;
+    left: 30px;
+    width: 163px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    position: absolute;
+}
+
+.cnum {
+	top: 204px;
+    left: 30px;
+    width: 140px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    position: absolute;
+}
+
+.inum{
+	top: 277px;
+    left: 30px;
+    width: 117px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    position: absolute;	
+} 
+
+.iamt {
+	top: 350px;
+    left: 30px;
+    width: 163px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    position: absolute;
+}
+
+.dd {
+	top: 131px;
+    left: 593px;
+    width: 102px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    position: absolute;	
+}
+
+.nt {
+    top: 205px;
+    left: 593px;
+    width: 55px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    opacity: 1;
+    position: absolute;
+}
+
+.cnamebox {
+    top: -10px;
+    left: 183px;
+    width: 300px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.cnumbox {
+	top: -10px;
+    left: 183px;
+    width: 300px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.inumbox {
+	top: -10px;
+    left: 183px;
+    width: 300px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.iamtbox {
+    top: -10px;
+    left: 183px;
+    width: 300px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.ddbox {
+    top: -10px;
+    left: 180px;
+    width: 300px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.calendarbtn {
+    top: 0px;
+    left: 450px;
+    width: 20px;
+    height: 22px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.ntbox {
+	top: -5px;
+    left: 183px;
+    width: 300px;
+    height: 191px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.cancel {
+    top: 451px;
+    right: 995.5px;
+    width: 60px;
+    height: 23px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Ubuntu;
+    letter-spacing: 0px;
+    color: #14AFF1;
+    opacity: 1;
+    position: absolute;
+}
+
+.clrbtn {
+	top: 439.71px;
+    left: 887.04px;
+    width: 87px;
+    height: 45px;
+    border: 1px solid #14AFF1;
+    background: #2A3E4C 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.addbtn{
+	top: 439.71px;
+    left: 999.04px;
+    width: 77px;
+    height: 45px;
+    background: #14AFF1 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.editmdl {
+	top: 210px;
+	left: 689px;
+	width: 543px;
+	height: 511px;
+    display: none;
+	background: #2A3E4C 0% 0% no-repeat padding-box;
+	box-shadow: 0px 8px 24px #00000029;
+	border-radius: 6px;
+	opacity: 1;
+	position: absolute;	
+}
+
+.edithead {
+	top: 10px;
+    left: 30px;
+    width: 146px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    position: absolute; 
+}
+
+#editclsbtn {
+	top: 33px;
+	left: 488.74px;
+	right: 30.22px;
+	bottom: 453.97px;
+	width: 24px;
+	height: 24px;
+	background: transparent url(img/baseline-close-24px.png) 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position: absolute;
+}
+
+.editiamt {
+	top: 131px;
+    left: 30px;
+    width: 150px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    opacity: 1;
+    position: absolute;
+}
+
+.editiamtbox {
+	top: -10px;
+    left: 163px;
+    width: 319px;
+    height: 45px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.editnt {
+	top: 205px;
+    left: 30px;
+    width: 55px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0.19px;
+    color: #97A1A9;
+    opacity: 1;
+    position: absolute;
+}
+
+.editntbox {
+    top: -10px;
+    left: 163px;
+    width: 319px;
+    height: 191px;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #356680;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.editcancel {
+    top: 453px;
+    left: 50.5px;
+    width: 60px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0px;
+    color: #14AFF1;
+    opacity: 1;
+    position: absolute;
+}
+
+.editresetbtn {
+    top: 441.71px;
+    left: 314.04px;
+    width: 92px;
+    height: 45px;
+    border: 1px solid #14AFF1;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Ubuntu;
+    opacity: 1;
+    position: absolute;
+}
+
+.editsavebtn {
+    top: 441.71px;
+    left: 431.04px;
+    width: 82px;
+    height: 45px;
+    background: #14AFF1 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
+
+.deletemdl {
+    top: 294px;
+    left: 654px;
+    width: 611px;
+    height: 342px;
+    display: none;
+    background: #2A3F4D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    position: absolute;
+}
+
+.deletehead {
+    top: 5px;
+    left: 30px;
+    width: 217px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 28px/32px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+#deleteclsbtn {
+    top: 33px;
+    right: 29.97px;
+    left: 557px;
+    width: 24px;
+    height: 24px;
+    background: transparent url(img/baseline-close-24px.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.deletemsg {
+    top: 90px;
+    left: 30px;
+    width: 540px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0px;
+    color: #C0C6CA;
+    position: absolute;
+}
+
+.deletecancelbtn {
+    top: 272px;
+    left: 355px;
+    width: 100px;
+    height: 45px;
+    background: #2C404E 0% 0% no-repeat padding-box;
+    border: 1px solid #14AFF1;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Ubuntu;
+    opacity: 1;
+    position: absolute;
+}
+
+.deletedltbtn {
+    top: 271.71px;
+    left: 480.04px;
+    width: 101px;
+    height: 45px;
+    background: #14AFF1 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Ubuntu;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+}
